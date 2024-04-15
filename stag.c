@@ -47,7 +47,7 @@ const char stag_usage_string[] =
 "\n";
 
 // Display usage info
-void usage(){
+void usage(void){
   printf(stag_usage_string);
   exit(0);
 }
